@@ -34,8 +34,9 @@ def twoFunction(message):
     def data_transmitter():
         "The nested function"
         print(message)
-    return data_transmitter()
-#prints additional 'None'
+        x = 89
+        return x
+    return data_transmitter
 print(twoFunction("Two message"))
 
 #example 4
@@ -45,11 +46,11 @@ def transmit_to_space(message):
       "The nested function"
       print(message)
   return data_transmitter
-#does not additional 'None' which is required behaviour
+#does not print additional 'None' which is required behaviour
 fun2 = transmit_to_space("Burn the Sun!")
 fun2()
 
-#example 5
+# #example 5
 def multiplier_of(n):
     def multiplier(number):
         return number*n
