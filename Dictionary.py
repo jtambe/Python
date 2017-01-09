@@ -70,7 +70,7 @@ def Cat(filename):
 
 
 def main():
-    #dictionaryExercise()
+    dictionaryExercise()
     Cat(sys.argv[1])
 
 if __name__ == '__main__':
