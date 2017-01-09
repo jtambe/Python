@@ -1,0 +1,4 @@
+this is
+just to test
+file reading
+operation in python
