@@ -1,6 +1,6 @@
 
 
-# Given a 2d matrix convert it into hankel matrixs
+# Given a 2d matrix convert it into hankel matrix
 
 import numpy as np
 
