@@ -81,6 +81,12 @@ class Node:
             if self.rightChild:
                 self.rightChild.inorder()
 
+    def getHeight(self,child):
+        if child is None:
+            return -1
+        else:
+            return (1 + max(child.getHeight(child.leftChild), child.getHeight(child.rightChild)))
+
 
 
 class Tree:
@@ -94,7 +100,6 @@ class Tree:
             self.root = Node(data)
             self.root.Parent = -99
             return True
-
     def find(self, data):
         if self.root:
             return self.root.find(data)
@@ -119,6 +124,12 @@ class Tree:
         else:
             return False
 
+    def getHeight(self):
+        if self.root:
+            return self.root.getHeight(self.root)
+        else:
+            return -1
+
 
 bst = Tree()
 bst.insert(10)
@@ -138,6 +149,6 @@ bst.inorder()
 
 bst.findParent(12)
 
-
+print("Height of tree is : "+ str(bst.getHeight()))
 #bst.preorder()
 #bst.postorder()
