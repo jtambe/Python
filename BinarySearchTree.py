@@ -1,9 +1,12 @@
 class Node:
     # constructor
+
     def __init__(self,val):
         self.value = val
+        #self.parent = parent
         self.leftChild = None
         self.rightChild = None
+        self.Parent = None
 
     # recursive insert function
     def insert(self,data):
@@ -14,12 +17,14 @@ class Node:
                 return self.leftChild.insert(data)
             else:
                 self.leftChild = Node(data)
+                self.leftChild.Parent = self.value
                 return True
         else:
             if self.rightChild:
                 return self.rightChild.insert(data)
             else:
                 self.rightChild = Node(data)
+                self.rightChild.Parent = self.value
 
 
     # recursive find function
@@ -34,6 +39,20 @@ class Node:
         else:
             if self.rightChild:
                 return self.rightChild.find(data)
+            else:
+                return False
+
+    def findParent(self,data):
+        if self.value == data:
+            print("parent of "+ str(data) + " is : " + str(self.Parent))
+        elif data < self.value:
+            if self.leftChild:
+                return self.leftChild.findParent(data)
+            else:
+                return False
+        else:
+            if self.rightChild:
+                return self.rightChild.findParent(data)
             else:
                 return False
 
@@ -73,6 +92,7 @@ class Tree:
             return self.root.insert(data)
         else:
             self.root = Node(data)
+            self.root.Parent = -99
             return True
 
     def find(self, data):
@@ -93,6 +113,13 @@ class Tree:
         print('inorder')
         self.root.inorder()
 
+    def findParent(self,data):
+        if self.root:
+            return self.root.findParent(data)
+        else:
+            return False
+
+
 bst = Tree()
 bst.insert(10)
 bst.insert(15)
@@ -108,5 +135,9 @@ bst.insert(24)
 bst.insert(67)
 
 bst.inorder()
-bst.preorder()
-bst.postorder()
+
+bst.findParent(12)
+
+
+#bst.preorder()
+#bst.postorder()
