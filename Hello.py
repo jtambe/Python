@@ -14,6 +14,23 @@ def hello(name):
     print(name[3:4])
     print(name[:4])
 
+
+def pyLists2():
+    myString = "ABCDEFGHIJKLMNOP"
+    print(myString.__contains__("ABC"))
+    print(myString.__contains__("PQR"))
+
+    print(myString.lower())
+    print(myString.upper())
+    print(myString[0])
+
+    myStringList = list(myString)
+    myStringList[0] = "X"
+
+    myString = str("".join(myStringList))
+    print(myString)
+
+
 def pyLists():
     a = [1, 2, 'kill']
     # using str as only lists can be concatenated
@@ -99,16 +116,17 @@ def tupleExercise():
 def main():
     #print ("Hello")
     # print command line arguments
-    print (sys.argv)
+    #print (sys.argv)
     # print what sys module contains
-    print(dir(sys))
+    #print(dir(sys))
     # document page
-    print(help(len))
-    hello("jayesh")
-    pyLists()
-    sortByLength()
-    sortByLastChar()
-    tupleExercise()
+    #print(help(len))
+    #hello("jayesh")
+    #pyLists()
+    pyLists2()
+    #sortByLength()
+    #sortByLastChar()
+    #tupleExercise()
 
 if __name__ == '__main__':
     main()
