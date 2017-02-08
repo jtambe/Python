@@ -17,14 +17,14 @@ class Node:
                 return self.leftChild.insert(data)
             else:
                 self.leftChild = Node(data)
-                self.leftChild.Parent = self.value
+                self.leftChild.Parent = self
                 return True
         else:
             if self.rightChild:
                 return self.rightChild.insert(data)
             else:
                 self.rightChild = Node(data)
-                self.rightChild.Parent = self.value
+                self.rightChild.Parent = self
 
 
     # recursive find function
@@ -44,7 +44,7 @@ class Node:
 
     def findParent(self,data):
         if self.value == data:
-            print("parent of "+ str(data) + " is : " + str(self.Parent))
+            print("parent of "+ str(data) + " is : " + str(self.Parent.value))
         elif data < self.value:
             if self.leftChild:
                 return self.leftChild.findParent(data)
@@ -98,8 +98,9 @@ class Tree:
             return self.root.insert(data)
         else:
             self.root = Node(data)
-            self.root.Parent = -99
+            self.root.Parent = None
             return True
+
     def find(self, data):
         if self.root:
             return self.root.find(data)
@@ -120,7 +121,10 @@ class Tree:
 
     def findParent(self,data):
         if self.root:
-            return self.root.findParent(data)
+            if self.root.value == data:
+                return "it is root node"
+            else:
+                return self.root.findParent(data)
         else:
             return False
 
@@ -150,5 +154,6 @@ bst.inorder()
 bst.findParent(12)
 
 print("Height of tree is : "+ str(bst.getHeight()))
+
 #bst.preorder()
 #bst.postorder()
