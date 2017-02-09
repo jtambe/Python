@@ -5,7 +5,6 @@
 
 def Merge(leftList, rightList, inputList):
 
-
     i = j = k = 0
     # i is my increment for left sublist
     # j is my increment for right sublist
