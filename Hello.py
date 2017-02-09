@@ -1,5 +1,5 @@
 import sys
-
+import itertools
 
 def hello(name):
     if name == "jayesh" or name == 'jess':
@@ -14,8 +14,7 @@ def hello(name):
     print(name[3:4])
     print(name[:4])
 
-
-def pyLists2():
+def pyStringOps():
     myString = "ABCDEFGHIJKLMNOP"
     print(myString.__contains__("ABC"))
     print(myString.__contains__("PQR"))
@@ -24,11 +23,37 @@ def pyLists2():
     print(myString.upper())
     print(myString[0])
 
+    # slow way to manipulate string in python
     myStringList = list(myString)
     myStringList[0] = "X"
-
     myString = str("".join(myStringList))
     print(myString)
+
+    print(myString[:-1])
+
+    # faster way to manipulate string in python
+    testString = myString[:1]+ 'NEW' + myString[2:]
+    print(testString)
+
+def pyTwoListsLoop():
+
+    names = ['Jayesh', 'Alena', 'Milan', 'Amber']
+    ids = [23,90]
+
+    # zip uses itertools
+    for x,y in zip(names,ids):
+        print(str(y) + ' : ' + str(x) )
+
+    # zip uses itertools
+    for x, y in itertools.zip_longest(names, ids):
+        print(str(y) + ' : ' + str(x))
+
+
+    namesLength = len(names)
+    idsLength = len(ids)
+    for i in range(namesLength):
+        print( str(names[i]) + ' - ' + str(ids[i%idsLength]) )
+
 
 
 def pyLists():
@@ -102,7 +127,6 @@ def sortByLastChar():
     for i in range(4):
         print(i)
 
-
 def tupleExercise():
     print('inside tuple')
     a = ('x', 'y', 'z')
@@ -123,7 +147,8 @@ def main():
     #print(help(len))
     #hello("jayesh")
     #pyLists()
-    pyLists2()
+    #pyStringOps()
+    pyTwoListsLoop()
     #sortByLength()
     #sortByLastChar()
     #tupleExercise()
