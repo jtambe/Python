@@ -22,9 +22,34 @@ def fiboRecursive(n):
         return fiboRecursive(n-1)+ fiboRecursive(n-2)
 
 
+def fibonacciShort(n):
+    # dual assignment
+    a, b = 0, 1
+    for i in range(n):
+        # print horizontally
+        print(a, end = " ")
+        a, b = b, a+b
+
+# Generator style
+def fibonacciGenrator(n):
+    a,b = 0,1
+    print("")
+    for i in range(n):
+        yield a
+        a,b = b, a+b
+
+
+
 def main():
-    fibonacci(10)
-    print(fiboRecursive(9))
+    #fibonacci(10)
+
+    #print(fiboRecursive(9))
+
+    fibonacciShort(10)
+
+    for eachYieldResult in fibonacciGenrator(10):
+        print(eachYieldResult, end=" ")
+
 
 if __name__ == '__main__':
     main()

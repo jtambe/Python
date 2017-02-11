@@ -29,9 +29,13 @@ def dictionaryExercise():
     for k in sorted(dict.keys()):
         print( k + ' -> ' + dict[k])
 
+    for key,val in dict.items():
+        print("key is: "+ key + " value : "+ val)
+
     #retuns a list of tuple
     print(dict.items())
 
+    # just as good as iterating over a list of tupples
     for tupleItem in dict.items():
         print(tupleItem)
 
@@ -71,7 +75,7 @@ def Cat(filename):
 
 def main():
     dictionaryExercise()
-    Cat(sys.argv[1])
+    #Cat(sys.argv[1])
 
 if __name__ == '__main__':
     main()

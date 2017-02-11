@@ -55,6 +55,12 @@ def pyTwoListsLoop():
         print( str(names[i]) + ' - ' + str(ids[i%idsLength]) )
 
 
+    #given a list of numbers
+    listOfnumbers = [1, 2, 3,4,5, 6,7, 8, 9, 10]
+    #following is quick way to get their squares  or following is an inline iteration with operation
+    squares = [ i*i for i in listOfnumbers ]
+    print (squares)
+
 
 def pyLists():
     a = [1, 2, 'kill']
