@@ -2,6 +2,8 @@
 #generate all permutations of a given string
 #credits : http://www.ardendertat.com/2011/10/28/programming-interview-questions-11-all-permutations-of-string/
 
+#O(n!)
+
 def permutations(word):
     if len(word) <= 1:
         return [word]
