@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef2a2fa-a3ea-4539-b406-fed05b7166a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadCSV.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/numpyArray.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stringPermutation.py" afterPath="$PROJECT_DIR$/stringPermutation.py" />
     </list>
     <ignored path="Python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,142 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Hello.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hello.py">
+      <file leaf-file-name="graph1.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graph1.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#50#320#0" expanded="false" />
-                <element signature="e#345#852#0" expanded="false" />
-                <element signature="e#1577#2389#0" expanded="false" />
-                <element signature="e#2415#2548#0" expanded="false" />
-                <element signature="e#2567#2579#0" expanded="false" />
-                <element signature="e#2607#3042#0" expanded="false" />
-                <element signature="e#3069#3244#0" expanded="false" />
-                <element signature="e#3262#3278#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringReverse.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StringReverse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dictionary.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dictionary.py">
+      <file leaf-file-name="ReadCSV.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReadCSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding>
-                <element signature="e#867#1698#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HankelMatrix.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HankelMatrix.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sortingObjects.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sortingObjects.py">
+      <file leaf-file-name="numpyArray.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/numpyArray.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinarySearchTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#270#780#0" expanded="false" />
-                <element signature="e#362#566#0" expanded="false" />
-                <element signature="e#466#566#0" expanded="false" />
-                <element signature="e#593#780#0" expanded="false" />
-                <element signature="e#699#773#0" expanded="false" />
-                <element signature="e#840#1188#0" expanded="false" />
-                <element signature="e#931#1045#0" expanded="false" />
-                <element signature="e#1072#1188#0" expanded="false" />
-                <element signature="e#1229#1650#0" expanded="false" />
-                <element signature="e#1375#1495#0" expanded="false" />
-                <element signature="e#1522#1650#0" expanded="false" />
-                <element signature="e#1713#1904#0" expanded="false" />
-                <element signature="e#1734#1904#0" expanded="false" />
-                <element signature="e#1939#2132#0" expanded="false" />
-                <element signature="e#1960#2132#0" expanded="false" />
-                <element signature="e#2165#2354#0" expanded="false" />
-                <element signature="e#2186#2354#0" expanded="false" />
-                <element signature="e#2395#2546#0" expanded="false" />
-                <element signature="e#2648#2812#0" expanded="false" />
-                <element signature="e#2730#2812#0" expanded="false" />
-                <element signature="e#2848#2940#0" expanded="false" />
-                <element signature="e#2974#3020#0" expanded="false" />
-                <element signature="e#3055#3103#0" expanded="false" />
-                <element signature="e#3136#3180#0" expanded="false" />
-                <element signature="e#3221#3422#0" expanded="false" />
-                <element signature="e#3247#3383#0" expanded="false" />
-                <element signature="e#3457#3556#0" expanded="false" />
-                <element signature="e#3841#3856#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MergeSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hashtable.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hashtable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PyFibonacci.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PyFibonacci.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stringPermutation.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stringPermutation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="293">
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -186,6 +76,9 @@
         <option value="$PROJECT_DIR$/Hello.py" />
         <option value="$PROJECT_DIR$/PyFibonacci.py" />
         <option value="$PROJECT_DIR$/stringPermutation.py" />
+        <option value="$PROJECT_DIR$/graph1.csv" />
+        <option value="$PROJECT_DIR$/ReadCSV.py" />
+        <option value="$PROJECT_DIR$/numpyArray.py" />
       </list>
     </option>
   </component>
@@ -220,7 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,6 +133,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -249,7 +142,7 @@
     <property name="settings.editor.splitter.proportion" value="0.23874755" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.stringPermutation">
+  <component name="RunManager" selected="Python.numpyArray">
     <configuration default="false" name="Hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,23 +156,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MergeSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MergeSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -301,23 +177,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dictionary.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="stringPermutation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,6 +190,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stringPermutation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReadCSV" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadCSV.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="numpyArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numpyArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -471,18 +364,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Hello" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MergeSort" />
-      <item index="2" class="java.lang.String" itemvalue="Python.PyFibonacci" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Dictionary" />
-      <item index="4" class="java.lang.String" itemvalue="Python.stringPermutation" />
+      <item index="1" class="java.lang.String" itemvalue="Python.PyFibonacci" />
+      <item index="2" class="java.lang.String" itemvalue="Python.stringPermutation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ReadCSV" />
+      <item index="4" class="java.lang.String" itemvalue="Python.numpyArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.stringPermutation" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PyFibonacci" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Hello" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Dictionary" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MergeSort" />
+        <item index="0" class="java.lang.String" itemvalue="Python.numpyArray" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ReadCSV" />
+        <item index="2" class="java.lang.String" itemvalue="Python.stringPermutation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PyFibonacci" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Hello" />
       </list>
     </recent_temporary>
   </component>
@@ -543,13 +436,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/closure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+            <element signature="e#50#320#0" expanded="false" />
+            <element signature="e#345#852#0" expanded="false" />
+            <element signature="e#1577#2389#0" expanded="false" />
+            <element signature="e#2415#2548#0" expanded="false" />
+            <element signature="e#2567#2579#0" expanded="false" />
+            <element signature="e#2607#3042#0" expanded="false" />
+            <element signature="e#3069#3244#0" expanded="false" />
+            <element signature="e#3262#3278#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="77" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#867#1698#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RegularExpression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-          <folding>
-            <element signature="e#40#98#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,7 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,7 +549,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
             <element signature="e#50#320#0" expanded="false" />
             <element signature="e#345#852#0" expanded="false" />
             <element signature="e#1577#2389#0" expanded="false" />
@@ -646,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-          <folding>
-            <element signature="e#40#98#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,106 +643,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#50#320#0" expanded="false" />
-            <element signature="e#345#852#0" expanded="false" />
-            <element signature="e#1577#2389#0" expanded="false" />
-            <element signature="e#2415#2548#0" expanded="false" />
-            <element signature="e#2567#2579#0" expanded="false" />
-            <element signature="e#2607#3042#0" expanded="false" />
-            <element signature="e#3069#3244#0" expanded="false" />
-            <element signature="e#3262#3278#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="77" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="e#867#1698#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegularExpression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-          <folding>
-            <element signature="e#40#98#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HankelMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding>
-            <element signature="e#270#780#0" expanded="false" />
-            <element signature="e#362#566#0" expanded="false" />
-            <element signature="e#466#566#0" expanded="false" />
-            <element signature="e#593#780#0" expanded="false" />
-            <element signature="e#699#773#0" expanded="false" />
-            <element signature="e#840#1188#0" expanded="false" />
-            <element signature="e#931#1045#0" expanded="false" />
-            <element signature="e#1072#1188#0" expanded="false" />
-            <element signature="e#1229#1650#0" expanded="false" />
-            <element signature="e#1375#1495#0" expanded="false" />
-            <element signature="e#1522#1650#0" expanded="false" />
-            <element signature="e#1713#1904#0" expanded="false" />
-            <element signature="e#1734#1904#0" expanded="false" />
-            <element signature="e#1939#2132#0" expanded="false" />
-            <element signature="e#1960#2132#0" expanded="false" />
-            <element signature="e#2165#2354#0" expanded="false" />
-            <element signature="e#2186#2354#0" expanded="false" />
-            <element signature="e#2395#2546#0" expanded="false" />
-            <element signature="e#2648#2812#0" expanded="false" />
-            <element signature="e#2730#2812#0" expanded="false" />
-            <element signature="e#2848#2940#0" expanded="false" />
-            <element signature="e#2974#3020#0" expanded="false" />
-            <element signature="e#3055#3103#0" expanded="false" />
-            <element signature="e#3136#3180#0" expanded="false" />
-            <element signature="e#3221#3422#0" expanded="false" />
-            <element signature="e#3247#3383#0" expanded="false" />
-            <element signature="e#3457#3556#0" expanded="false" />
-            <element signature="e#3841#3856#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/closure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
             <element signature="e#50#320#0" expanded="false" />
             <element signature="e#345#852#0" expanded="false" />
             <element signature="e#1577#2389#0" expanded="false" />
@@ -844,9 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#98#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -899,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,7 +737,7 @@
         <state relative-caret-position="510">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
             <element signature="e#50#320#0" expanded="false" />
             <element signature="e#345#852#0" expanded="false" />
             <element signature="e#1577#2389#0" expanded="false" />
@@ -980,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,7 +816,7 @@
         <state relative-caret-position="510">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
             <element signature="e#50#320#0" expanded="false" />
             <element signature="e#345#852#0" expanded="false" />
             <element signature="e#1577#2389#0" expanded="false" />
@@ -1024,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,7 +858,7 @@
         <state relative-caret-position="306">
           <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
             <element signature="e#50#320#0" expanded="false" />
             <element signature="e#345#852#0" expanded="false" />
             <element signature="e#1577#2389#0" expanded="false" />
@@ -1058,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,9 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-          <folding>
-            <element signature="e#40#98#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1097,6 +909,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PyListHackerRank.py" />
     <entry file="file://$PROJECT_DIR$/StringReverse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1105,7 +918,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PyListHackerRank.py" />
+    <entry file="file://$PROJECT_DIR$/Hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+            <element signature="e#50#320#0" expanded="false" />
+            <element signature="e#345#852#0" expanded="false" />
+            <element signature="e#1577#2389#0" expanded="false" />
+            <element signature="e#2415#2548#0" expanded="false" />
+            <element signature="e#2567#2579#0" expanded="false" />
+            <element signature="e#2607#3042#0" expanded="false" />
+            <element signature="e#3069#3244#0" expanded="false" />
+            <element signature="e#3262#3278#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#867#1698#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1145,8 +985,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MergeSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="572">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1167,38 +1007,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#50#320#0" expanded="false" />
-            <element signature="e#345#852#0" expanded="false" />
-            <element signature="e#1577#2389#0" expanded="false" />
-            <element signature="e#2415#2548#0" expanded="false" />
-            <element signature="e#2567#2579#0" expanded="false" />
-            <element signature="e#2607#3042#0" expanded="false" />
-            <element signature="e#3069#3244#0" expanded="false" />
-            <element signature="e#3262#3278#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#867#1698#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stringPermutation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadCSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numpyArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
           <folding />
         </state>
       </provider>
