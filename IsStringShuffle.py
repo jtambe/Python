@@ -21,6 +21,8 @@
 
 
 
+# Given str1, str2, str3, check if str3 is interleaved string of str1 and str2.
+# This code checks the characters in str3 are in order as they appear in str1 and str2
 
 def IsStringShuffle2(str1, str2, str3, cache=set()):
     if (str1, str2) in cache: # if we encounter already unmatched set of 2 input strings, dismiss further process
