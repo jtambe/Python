@@ -70,12 +70,61 @@ def Cat(filename):
 
 
 
+import collections
+def dictionaryExercise2():
+    mydict = {"jayesh":2, "zalex":1, "mili":23, "yuki":23, "xarin":11}
+    print(mydict)
+    #{'xarin': 11, 'yuki': 23, 'mili': 23, 'jayesh': 2, 'zalex': 1}
+
+    # sorted(mydict, key = mydict.values())
+
+    # print(sorted(mydict.items()))
+    # sortedDict = sorted(mydict, key=mydict.__getitem__,mydict.values())
+    # print(sortedDict)
+
+
+    # sorted by values
+    sortedMyDict = collections.OrderedDict( sorted(mydict.items(), key=lambda t:t[1], reverse=True) )
+    print(sortedMyDict)
+    #OrderedDict([('yuki', 23), ('mili', 23), ('xarin', 11), ('jayesh', 2), ('zalex', 1)])
+
+    # sorted by keys
+    sortedMyDict = collections.OrderedDict( sorted(sortedMyDict.items(), key=lambda t:t[0],reverse=True))
+    print(sortedMyDict)
+    # OrderedDict([('zalex', 1), ('yuki', 23), ('xarin', 11), ('mili', 23), ('jayesh', 2)])
+
+    # following sorts dictionary by value first and then
+    # that sorted dict of values is sorted for keys retaining order of values
+    sortedMyDict = collections.OrderedDict(sorted(sortedMyDict.items(), key=lambda t:(t[1],t[0]), reverse= True ) )
+    print(sortedMyDict)
+    # OrderedDict([('yuki', 23), ('mili', 23), ('xarin', 11), ('jayesh', 2), ('zalex', 1)])
+
+    for k,v in sortedMyDict.items():
+        print(k, v)
+    '''
+    yuki
+    23
+    mili
+    23
+    xarin
+    11
+    jayesh
+    2
+    zalex
+    1
+    '''
+
+    first = sortedMyDict.popitem(last=False)
+    print(first)
+    #('yuki', 23)
+
 
 
 
 def main():
-    dictionaryExercise()
+    #dictionaryExercise()
     #Cat(sys.argv[1])
+    dictionaryExercise2()
 
 if __name__ == '__main__':
     main()
