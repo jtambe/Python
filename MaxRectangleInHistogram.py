@@ -49,3 +49,4 @@ if __name__ == "__main__":
 #credits
 #https://www.youtube.com/watch?v=ZmnqCZp9bBs
 # video has for loop implemented without i++ at the end. Which is equivalent of while loop as in here
+# http://cs-technotes.blogspot.com/2010/12/largest-rectangle-of-histogram.html
