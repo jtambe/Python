@@ -21,6 +21,8 @@ from BinarySearchTree import *
 
 
 def AddToTree(a, start, end):
+
+    # if array is of length zero
     if len(a) == 0:
         return False
 
@@ -36,8 +38,13 @@ def AddToTree(a, start, end):
 
 
 def CreateMinimalBST(a):
+    # sort the array first
     a = sorted(a)
+
+    # after adding all the nodes in tree, AddToTree will return the root node
     root = AddToTree(a, 0, len(a)-1)
+
+    # testing by traversing in inorder
     root.inorder()
 
 def main():

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef2a2fa-a3ea-4539-b406-fed05b7166a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BinarySearchTree.py" afterPath="$PROJECT_DIR$/BinarySearchTree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IsTreeBalanced.py" afterPath="$PROJECT_DIR$/IsTreeBalanced.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ListsAtDepthBST.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ArrayIntoBST.py" afterPath="$PROJECT_DIR$/ArrayIntoBST.py" />
     </list>
     <ignored path="Python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="BinarySearchTree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinarySearchTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
+            <state relative-caret-position="344">
+              <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
               <folding>
                 <element signature="e#270#779#0" expanded="false" />
                 <element signature="e#839#1187#0" expanded="false" />
@@ -37,7 +38,6 @@
                 <element signature="e#1938#2131#0" expanded="false" />
                 <element signature="e#2164#2353#0" expanded="false" />
                 <element signature="e#2394#2545#0" expanded="false" />
-                <element signature="e#2647#2811#0" expanded="false" />
                 <element signature="e#2847#2939#0" expanded="false" />
                 <element signature="e#2973#3019#0" expanded="false" />
                 <element signature="e#3054#3102#0" expanded="false" />
@@ -49,11 +49,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayIntoBST.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayIntoBST.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ArrayIntoBST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="344">
+              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BreadthFirstSearch.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BreadthFirstSearch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListsAtDepthBST.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ListsAtDepthBST.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,6 +117,7 @@
         <option value="$PROJECT_DIR$/IsTreeBalanced.py" />
         <option value="$PROJECT_DIR$/BinarySearchTree.py" />
         <option value="$PROJECT_DIR$/ArrayIntoBST.py" />
+        <option value="$PROJECT_DIR$/ListsAtDepthBST.py" />
       </list>
     </option>
   </component>
@@ -160,41 +181,7 @@
     <property name="settings.editor.splitter.proportion" value="0.23874755" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.ArrayIntoBST">
-    <configuration default="false" name="HeapsortApplication" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HeapsortApplication.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MaxheapImplementation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MaxheapImplementation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ListsAtDepthBST">
     <configuration default="false" name="TowerOfHanoi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,6 +229,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearchTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BreadthFirstSearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BreadthFirstSearch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListsAtDepthBST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ListsAtDepthBST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -381,19 +402,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.HeapsortApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MaxheapImplementation" />
-      <item index="2" class="java.lang.String" itemvalue="Python.TowerOfHanoi" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ArrayIntoBST" />
-      <item index="4" class="java.lang.String" itemvalue="Python.BinarySearchTree" />
+      <item index="0" class="java.lang.String" itemvalue="Python.TowerOfHanoi" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ArrayIntoBST" />
+      <item index="2" class="java.lang.String" itemvalue="Python.BinarySearchTree" />
+      <item index="3" class="java.lang.String" itemvalue="Python.BreadthFirstSearch" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ListsAtDepthBST" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ArrayIntoBST" />
-        <item index="1" class="java.lang.String" itemvalue="Python.BinarySearchTree" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TowerOfHanoi" />
-        <item index="3" class="java.lang.String" itemvalue="Python.MaxheapImplementation" />
-        <item index="4" class="java.lang.String" itemvalue="Python.HeapsortApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ListsAtDepthBST" />
+        <item index="1" class="java.lang.String" itemvalue="Python.BreadthFirstSearch" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ArrayIntoBST" />
+        <item index="3" class="java.lang.String" itemvalue="Python.BinarySearchTree" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TowerOfHanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -454,13 +475,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -726,14 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BreadthFirstSearch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IsBST.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -798,10 +804,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BreadthFirstSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayIntoBST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
+        <state relative-caret-position="344">
+          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
           <folding>
             <element signature="e#270#779#0" expanded="false" />
             <element signature="e#839#1187#0" expanded="false" />
@@ -810,7 +832,6 @@
             <element signature="e#1938#2131#0" expanded="false" />
             <element signature="e#2164#2353#0" expanded="false" />
             <element signature="e#2394#2545#0" expanded="false" />
-            <element signature="e#2647#2811#0" expanded="false" />
             <element signature="e#2847#2939#0" expanded="false" />
             <element signature="e#2973#3019#0" expanded="false" />
             <element signature="e#3054#3102#0" expanded="false" />
@@ -821,10 +842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArrayIntoBST.py">
+    <entry file="file://$PROJECT_DIR$/ListsAtDepthBST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="327">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
         </state>
       </provider>
