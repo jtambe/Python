@@ -26,7 +26,6 @@ class Node:
                 self.rightChild = Node(data)
                 self.rightChild.Parent = self
 
-
     # recursive find function
     def find(self, data):
         if self.value == data:
@@ -149,11 +148,11 @@ bst.insert(30)
 bst.insert(24)
 bst.insert(67)
 
-bst.inorder()
+#bst.inorder()
 
-bst.findParent(12)
+#bst.findParent(12)
 
-print("Height of tree is : "+ str(bst.getHeight()))
+#print("Height of tree is : "+ str(bst.getHeight()))
 
 #bst.preorder()
 #bst.postorder()
