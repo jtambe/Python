@@ -96,20 +96,29 @@ def GetCount(x,y):
     # from end position there is only 1 path
     paths[x-1][y-1] = 1
 
+    # flag maintains following,
+    # while traversing reverse in last row and column,
+    # if any block is roadblock then al previous block cannot use that path anymore
+    flag = False
     # from last horizontal row, one can only move right,
     # which means there is only one path to get to end, unless there is roadblock which means 0 paths
-    for i in range(y-1):
-        if grid[x-1][i] == -1:
+    for i in reversed(range(y-1)):
+        if grid[x-1][i] == -1 or flag == True:
             paths[x - 1][i] = 0
+            flag = True
         else:
             paths[x - 1][i] = 1
 
-
+    # flag maintains following,
+    # while traversing reverse in last row and column,
+    # if any block is roadblock then al previous block cannot use that path anymore
+    flag = False
     # from last vertical column, one can only move down,
     # which means there is only one path to get to end, unless there is roadblock which means 0 paths
-    for i in range(x - 1):
-        if grid[i][y-1] == -1:
+    for i in reversed(range(x - 1)):
+        if grid[i][y-1] == -1 or flag == True:
             paths[i][y - 1] = 0
+            flag = True
         else:
             paths[i][y - 1] = 1
 
@@ -125,6 +134,7 @@ def GetCount(x,y):
             else:
                 paths[i][j] = paths[i+1][j] + paths[i][j+1]
 
+    print(grid)
     print(paths)
     print("Number of total paths from origin :"+str(paths[0][0]))
 
