@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef2a2fa-a3ea-4539-b406-fed05b7166a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReverseDirectedAcyclicGraph.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LongestKuniqueCharacterSubstring.py" afterPath="$PROJECT_DIR$/LongestKuniqueCharacterSubstring.py" />
     </list>
     <ignored path="Python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="DFS.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DFS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="419">
+              <caret line="58" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestKuniqueCharacterSubstring.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestKuniqueCharacterSubstring.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LongestKuniqueCharacterSubstring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="429">
+              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseDirectedAcyclicGraph.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReverseDirectedAcyclicGraph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="3" column="47" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -103,6 +113,7 @@
         <option value="$PROJECT_DIR$/Dictionary.py" />
         <option value="$PROJECT_DIR$/LongestKuniqueCharacteSubstring.py" />
         <option value="$PROJECT_DIR$/LongestKuniqueCharacterSubstring.py" />
+        <option value="$PROJECT_DIR$/ReverseDirectedAcyclicGraph.py" />
       </list>
     </option>
   </component>
@@ -166,24 +177,7 @@
     <property name="settings.editor.splitter.proportion" value="0.23874755" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.LongestKuniqueCharacterSubstring">
-    <configuration default="false" name="StringlyConnectedComponents" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StringlyConnectedComponents.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ReverseDirectedAcyclicGraph">
     <configuration default="false" name="StronglyConnectedComponents" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,6 +242,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LongestKuniqueCharacterSubstring.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReverseDirectedAcyclicGraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReverseDirectedAcyclicGraph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -387,19 +398,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.StringlyConnectedComponents" />
-      <item index="1" class="java.lang.String" itemvalue="Python.StronglyConnectedComponents" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Dictionary" />
-      <item index="3" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacteSubstring" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacterSubstring" />
+      <item index="0" class="java.lang.String" itemvalue="Python.StronglyConnectedComponents" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Dictionary" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacteSubstring" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacterSubstring" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ReverseDirectedAcyclicGraph" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacterSubstring" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacteSubstring" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Dictionary" />
-        <item index="3" class="java.lang.String" itemvalue="Python.StronglyConnectedComponents" />
-        <item index="4" class="java.lang.String" itemvalue="Python.StringlyConnectedComponents" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ReverseDirectedAcyclicGraph" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacterSubstring" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacteSubstring" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Dictionary" />
+        <item index="4" class="java.lang.String" itemvalue="Python.StronglyConnectedComponents" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +431,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20644216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -467,13 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -760,14 +764,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StringlyConnectedComponents.py" />
-    <entry file="file://$PROJECT_DIR$/DFS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StronglyConnectedComponents.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -794,8 +790,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LongestKuniqueCharacterSubstring.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="429">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="58" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReverseDirectedAcyclicGraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="47" />
           <folding />
         </state>
       </provider>
