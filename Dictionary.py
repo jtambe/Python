@@ -120,11 +120,24 @@ def dictionaryExercise2():
 
 
 
+def dictionaryExercise3():
+
+
+    dict = {}
+    dict['k'] = 0
+    print(dict)
+
+    if 'k' in dict:
+        dict['k'] = 5
+
+    print(dict)
+
 
 def main():
     #dictionaryExercise()
     #Cat(sys.argv[1])
-    dictionaryExercise2()
+    #dictionaryExercise2()
+    dictionaryExercise3()
 
 if __name__ == '__main__':
     main()
