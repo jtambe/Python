@@ -28,10 +28,12 @@ def LongestKUniqueCharactersSubstring(inputstr, K):
             windowsSize = end - start + 1
             windowStart = start
 
-        if IsResultvalid(inputstr[windowStart:windowStart+ windowsSize], dict, K):
-            return inputstr[windowStart:windowStart+ windowsSize]
-        else:
-            return False
+
+
+    if IsResultvalid(inputstr[windowStart:windowStart+ windowsSize], dict, K):
+        return inputstr[windowStart:windowStart+ windowsSize]
+    else:
+        return False
 
 def IsLessThan(dict, K):
     count = 0
