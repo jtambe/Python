@@ -18,6 +18,9 @@ def ReverseDAG(graph):
                 newGraph[item] = []
                 newGraph[item].append(k)
 
+    for k in graph:
+        if k not in newGraph:
+            newGraph[k] = []
 
     return newGraph
 
@@ -27,7 +30,7 @@ def ReverseDAG(graph):
 
 
 def main():
-    graph = {0:[1,2], 1:[2], 2:[3], 3:[4], 4:[5], 5:[6], 6:[3,7]}
+    graph = {0:[1,2], 1:[2], 2:[3], 3:[4], 4:[5], 5:[6], 6:[3,7], 7:[]}
     print(graph)
     reverse = ReverseDAG(graph)
     print(reverse)

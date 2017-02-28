@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef2a2fa-a3ea-4539-b406-fed05b7166a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReverseDirectedAcyclicGraph.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReverseDirectedAcyclicGraph.py" afterPath="$PROJECT_DIR$/ReverseDirectedAcyclicGraph.py" />
     </list>
     <ignored path="Python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,9 +27,29 @@
       <file leaf-file-name="DFS.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DFS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="58" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="31" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StronglyConnectedComponents.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StronglyConnectedComponents.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#115#1" expanded="false" />
+                <element signature="e#130#164#0" expanded="false" />
+                <element signature="e#370#506#0" expanded="false" />
+                <element signature="e#874#1432#0" expanded="false" />
+                <element signature="e#1462#1821#0" expanded="false" />
+                <element signature="e#1945#2748#0" expanded="false" />
+                <element signature="e#2797#3194#0" expanded="false" />
+                <element signature="e#3260#3658#0" expanded="false" />
+                <element signature="e#3678#4180#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,7 +57,7 @@
       <file leaf-file-name="Dictionary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dictionary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
+            <state relative-caret-position="2329">
               <caret line="137" column="21" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
               <folding />
             </state>
@@ -47,18 +67,18 @@
       <file leaf-file-name="LongestKuniqueCharacterSubstring.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LongestKuniqueCharacterSubstring.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseDirectedAcyclicGraph.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseDirectedAcyclicGraph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReverseDirectedAcyclicGraph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="47" />
+            <state relative-caret-position="72">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -109,11 +129,11 @@
         <option value="$PROJECT_DIR$/DFS.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/StringlyConnectedComponents.py" />
-        <option value="$PROJECT_DIR$/StronglyConnectedComponents.py" />
         <option value="$PROJECT_DIR$/Dictionary.py" />
         <option value="$PROJECT_DIR$/LongestKuniqueCharacteSubstring.py" />
         <option value="$PROJECT_DIR$/LongestKuniqueCharacterSubstring.py" />
         <option value="$PROJECT_DIR$/ReverseDirectedAcyclicGraph.py" />
+        <option value="$PROJECT_DIR$/StronglyConnectedComponents.py" />
       </list>
     </option>
   </component>
@@ -148,6 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,8 +190,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +197,7 @@
     <property name="settings.editor.splitter.proportion" value="0.23874755" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.ReverseDirectedAcyclicGraph">
+  <component name="RunManager" selected="Python.StronglyConnectedComponents">
     <configuration default="false" name="StronglyConnectedComponents" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,11 +426,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ReverseDirectedAcyclicGraph" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacterSubstring" />
-        <item index="2" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacteSubstring" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Dictionary" />
-        <item index="4" class="java.lang.String" itemvalue="Python.StronglyConnectedComponents" />
+        <item index="0" class="java.lang.String" itemvalue="Python.StronglyConnectedComponents" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ReverseDirectedAcyclicGraph" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacterSubstring" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LongestKuniqueCharacteSubstring" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Dictionary" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +459,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38643533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27287066" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -737,7 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,25 +783,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StringlyConnectedComponents.py" />
-    <entry file="file://$PROJECT_DIR$/StronglyConnectedComponents.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LongestKuniqueCharacteSubstring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LongestKuniqueCharacteSubstring.py" />
     <entry file="file://$PROJECT_DIR$/Dictionary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
+        <state relative-caret-position="2329">
           <caret line="137" column="21" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
           <folding />
         </state>
@@ -790,25 +794,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LongestKuniqueCharacterSubstring.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="238">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DFS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="58" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="31" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReverseDirectedAcyclicGraph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="47" />
+        <state relative-caret-position="72">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StronglyConnectedComponents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#115#1" expanded="false" />
+            <element signature="e#130#164#0" expanded="false" />
+            <element signature="e#370#506#0" expanded="false" />
+            <element signature="e#874#1432#0" expanded="false" />
+            <element signature="e#1462#1821#0" expanded="false" />
+            <element signature="e#1945#2748#0" expanded="false" />
+            <element signature="e#2797#3194#0" expanded="false" />
+            <element signature="e#3260#3658#0" expanded="false" />
+            <element signature="e#3678#4180#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
