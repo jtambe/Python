@@ -60,8 +60,17 @@ def GetSuffixLCPArray(str): # works in o(nlogn)
 def main():
     str = "jayesh"
     str = "banana"
+    str = "abaababaabaababaababa"
     GetSuffixLCPArray(str)
 
 
 if __name__ == "__main__":
     main()
+
+
+"""
+problems like
+1. Find longest repeated substring
+2. Longest maximum palindrome
+
+"""
