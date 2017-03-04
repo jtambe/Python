@@ -66,7 +66,8 @@ def updateBits(n, m, i, j):
 
     nn = int(n, 16)
     mm = int(m, 16)
-    max = ~0 # set all 1's
+    max = ~0 # set all 1's , 1's compliment
+    print(bin(max))
 
     #set 1's through position j, then its all o's
     left = max - ((1 << j) -1)
@@ -78,7 +79,8 @@ def updateBits(n, m, i, j):
     mask = left | right
 
     # clean i to j and place m in there
-    return (nn & mask) | (mm << i)
+    res =  (nn & mask) | (mm << i)
+    return bin(res)
 
 n = '10000000000'
 m = '10101'
@@ -93,34 +95,34 @@ print(updateBits(n,m,i,j))
 # print(number[number.find('.')+1:])
 
 
-def printBinary(decimalStr):
-
-    intPart = int(decimalStr[:decimalStr.find('.')])
-    decimalPart = float(decimalStr[decimalStr.find('.')+1:])
-
-    intstring = ""
-    while(intPart > 0):
-        r = intPart %2
-        intPart = intPart >> 1
-        intstring = str(r) + intstring
-
-    print(intstring)
-
-    decString = ""
-
-    while(decimalPart > 0):
-        if(len(decString) > 32):
-            raise Exception("Length out of bounds")
-        if decimalPart == 1:
-            decString.join(decimalPart)
-
-
-
-printBinary('123.897')
-
-
-
-
+# def printBinary(decimalStr):
+#
+#     intPart = int(decimalStr[:decimalStr.find('.')])
+#     decimalPart = float(decimalStr[decimalStr.find('.')+1:])
+#
+#     intstring = ""
+#     while(intPart > 0):
+#         r = intPart %2
+#         intPart = intPart >> 1
+#         intstring = str(r) + intstring
+#
+#     print(intstring)
+#
+#     decString = ""
+#
+#     while(decimalPart > 0):
+#         if(len(decString) > 32):
+#             raise Exception("Length out of bounds")
+#         if decimalPart == 1:
+#             decString.join(decimalPart)
+#
+#
+#
+# printBinary('123.897')
+#
+#
+#
+#
 
 
 
