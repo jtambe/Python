@@ -20,8 +20,9 @@ def helper(unmatched, toMatch):
 
 
 if __name__ == "__main__":
-    for i in range(4):
-        print(balancedBrackets(i))
+    print(balancedBrackets(3))
+    # for i in range(4):
+    #     print(balancedBrackets(i))
 
 
 

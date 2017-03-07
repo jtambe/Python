@@ -143,6 +143,23 @@ def tupleExercise():
     print('sorting tuple')
     print(sorted(a))
 
+def IfOneListContainsAnother():
+    list1 = [12, 15, 18, 19, 21, 26, 28, 31, 36, 39, 42, 44, 46, 49, 52, 56]
+    list2 = [21, 26, 28, 31, 36]
+
+    set1, set2= set(list1), set(list2)
+
+    print(set2.issubset(set1))
+
+
+
+def ExtendingList():
+    list = ['A']
+
+    ListAppend = ['p','q','r']
+    list.extend("$"+item  for item in ListAppend)
+    print(list)
+
 def main():
     #print ("Hello")
     # print command line arguments
@@ -154,10 +171,12 @@ def main():
     #hello("jayesh")
     #pyLists()
     #pyStringOps()
-    pyTwoListsLoop()
+    #pyTwoListsLoop()
     #sortByLength()
     #sortByLastChar()
     #tupleExercise()
+    #IfOneListContainsAnother()
+    ExtendingList()
 
 if __name__ == '__main__':
     main()
