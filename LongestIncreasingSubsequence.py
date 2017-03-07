@@ -1,80 +1,71 @@
 # A solution for longest increasing subsequence in O(nlogn)
 
+#credit https://github.com/mission-peace/interview/blob/master/src/com/interview/array/LongestIncreasingSubSequenceOlogNMethod.java
 
 
-def CeilIndex(tailtable, left, right, key):
+#Returns index in T for ceiling of s
+def CeilIndex(arr, T, end, s):
+    start = 0
+    length = end
 
-    while( right - left > 1):
-        mid = left + (right -left)//2
+    while(start <= end):
+        mid = (start + end)//2
 
-        if tailtable[mid]  >= key:
-            right = mid
+        if mid < length and arr[T[mid]] < s and s <= arr[T[mid+1]]:
+            return mid+1
+
+        elif (arr[T[mid]] < s):
+            start = mid + 1
         else:
-            left = mid
+            end = mid - 1
 
-    return right
+
+    return -1
+
+
+
+
 
 
 def LISLength(arr):
 
-    tailtable = [0]*len(arr)
+    T = [0]*len(arr)
+    R = [0]*len(arr)
 
+    print(arr)
+    print(T)
+
+
+    for i in range(len(R)):
+        R[i] = -1
+
+    print(R)
+
+    T[0] = 0
     length = 0
 
-    tailtable[0] = arr[0]
-    length = 1
-
     for i in range(1,len(arr)):
-
-        if arr[i] < tailtable[i]:
-            tailtable[0] = arr[i]
-
-        elif arr[i] > tailtable[length -1]:
-            tailtable[length] = arr[i]
+        if (arr[T[0]] > arr[i]): #if input[i] is less than 0th value of T then replace it there.
+            T[0] = i
+        elif (arr[T[length]] < arr[i]): #if input[i] is greater than last value of T then append it in T
             length += 1
-
-        else:
-            tailtable[CeilIndex(tailtable,-1, len -1, arr[i])] = arr[i]
-
-
-    return length
-
-
+            T[length] = i
+            R[T[length]] = T[length-1]
+        else: #do a binary search to find ceiling of input[i] and put it there
+            index = CeilIndex(arr, T, length, arr[i])
+            T[index] = i
+            R[T[index]] = T[index-1]
 
 
-def LIS(arr):
+    #print increasing subsueunce in reverse
+    index = T[length]
+    while index != -1:
+        print(arr[index], end=",")
+        index = R[index]
 
-    parent = [None]*len(arr) # store parent of the element in sequence
-    increasingSub = [None]*(len(arr)+1) # store ends of each increasing subsequence
-    length = 0 # length of longest increasing subsequence
+    return length +1
 
-    for i in range(len(arr)):
-        left = 1
-        right = length
 
-        while(left <= right):
-
-            mid = (left + right)//2
-            if arr[increasingSub[mid]] < arr[i]:
-                left = mid + 1
-            else:
-                right = mid -1
-
-        pos = left
-        parent[i]  = increasingSub[pos -1]
-        increasingSub[pos] = i
-        if pos > length:
-            length = pos
-        #return length
-
-    LongestIncreasingSubSequence = [None]*length
-    k = increasingSub[length]
-
-    for j in reversed(range(length-1)):
-        LongestIncreasingSubSequence[j] =arr[k]
-        k = parent[k]
-
-    print(LongestIncreasingSubSequence)
 
 arr = [10,20,30,5,60,70]
 arr = [3,1,5,2,6,4,9]
