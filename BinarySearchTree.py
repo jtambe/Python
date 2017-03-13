@@ -135,9 +135,9 @@ class Tree:
 
 
 bst = Tree()
-bst.insert(10)
 bst.insert(15)
 bst.insert(23)
+bst.insert(10)
 bst.insert(12)
 bst.insert(17)
 bst.insert(29)

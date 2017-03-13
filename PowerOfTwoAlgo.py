@@ -8,6 +8,13 @@ def IsPowerOfTwo (inputNUmber):
 	else:
 		return True
 
+def powerOfTwo2(v):
+	if v & v-1 == 0:
+		return True
+	else:
+		return False
+
+
 def IsMultipleOfTwo(number):
 	if( (number >> 1 << 1) == number ):
 		return True
@@ -16,6 +23,16 @@ def IsMultipleOfTwo(number):
 
 
 def main():
+	print("2 power: "+str(IsPowerOfTwo(2)) )
+	print("8 power: "+str(IsPowerOfTwo(8)) )
+	print("10 power: "+str(IsPowerOfTwo(10)) )
+	print("16 power: "+str(IsPowerOfTwo(16)) )
+	print("22 power: "+str(IsPowerOfTwo(22)) )
+	print("32 power: "+str(IsPowerOfTwo(32)) )
+	print("80 power: "+str(IsPowerOfTwo(80)) )
+	print("512 power: "+str(IsPowerOfTwo(512)) )
+
+	print("kjknkjkj")
 	print("2 power: "+str(IsPowerOfTwo(2)) )
 	print("8 power: "+str(IsPowerOfTwo(8)) )
 	print("10 power: "+str(IsPowerOfTwo(10)) )

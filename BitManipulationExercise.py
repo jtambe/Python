@@ -66,8 +66,10 @@ def updateBits(n, m, i, j):
 
     nn = int(n, 16)
     mm = int(m, 16)
-    max = ~0 # set all 1's , 1's compliment
-    print(bin(max))
+    q = 10
+    max = q # set all 1's , 1's compliment
+    #print(bin(max&1).zfill(64))
+    print(bin(max).zfill(64))
 
     #set 1's through position j, then its all o's
     left = max - ((1 << j) -1)
@@ -86,8 +88,12 @@ n = '10000000000'
 m = '10101'
 i = 2
 j = 6
-print(updateBits(n,m,i,j))
+#print(updateBits(n,m,i,j))
 
+
+import numpy as np
+t = bin(~np.int(10))
+# print(t.zfill(64))
 
 
 # number = '1123.557'
@@ -126,7 +132,69 @@ print(updateBits(n,m,i,j))
 
 
 
+#check if two integers have opposite signs
+x, y  = 10 , -90
 
+# print(bin(x))
+# print(bin(y))
+# print(bin(~2))
+# print(int('1011010',2))
+
+areOppositeSigns = ((x ^ y) < 0)
+
+# if(areOppositeSigns):
+#     print("are opposite signs")
+
+
+#find min and max
+x = 23
+y = -90
+
+r1 = y ^ ((x ^ y) & -(x < y)) # minimum
+# print(r1)
+r2 = x ^ ((x ^ y) & -(x < y)) # maximum
+# print(r2)
+
+x = 8
+y = 10
+print(bin(x)) #1000
+print(bin(y)) #1010
+
+print("x^y")
+print(bin(x^y)) #0010
+print("x<y")
+print(bin(x<y)) #0001
+print("-(x<y)")
+print(bin(-(x<y))) #-0001
+print("(x ^ y) & -(x < y)")
+'''
+Bitwise and of negative number is adding with negative number's two's compliment
+Therefore, & with -1 is adding two's compliment of -1
+2's compliment of -1
+1. 1's compliment of -1 => 1110
+2. 2's compliment = 1's compliment + 1 => 1111
+'''
+print(bin((x ^ y) & -(x < y)))  #0010
+
+
+
+
+
+
+# number of bits set in a number
+v = 15
+print(bin(v))
+print(bin(v-1))
+
+print(bin(v& v-1))
+
+
+# unsigned int v; // count the number of bits set in v
+# unsigned int c; // c accumulates the total bits set in v
+# for (c = 0; v; c++) # as long as v > 0
+# {
+#   v &= v - 1; // clear the least significant bit set
+# }
 
 
 
