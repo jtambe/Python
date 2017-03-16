@@ -4,7 +4,7 @@
 
 
 
-class MaxHeap:
+class MinHeap:
     def __init__(self, items=[]):
         super().__init__()
         self.heap = [0]
@@ -38,14 +38,14 @@ class MaxHeap:
     def pop(self):
         if len(self.heap) > 2:
             self.__swap(1, len(self.heap) -1) # swap first with last
-            max = self.heap.pop()
+            min = self.heap.pop()
             self.__bubbledown(1) # then bubbledown first value
         elif len(self.heap) == 2:
-            max = self.heap.pop()
+            min = self.heap.pop()
         else:
-            max = False
+            min = False
 
-        return max
+        return min
 
 
     def __swap(self,i,j):
@@ -60,8 +60,8 @@ class MaxHeap:
         # base case for recursive function
         if index <= 1:
             return
-        # if recently added value at index is greater than parent, float it up and then do it for parent
-        elif self.heap[index] > self.heap[parent]:
+        # if recently added value at index is smaller than parent, float it up and then do it for parent
+        elif self.heap[index] < self.heap[parent]:
             self.__swap(index,parent)
             self.__floatUp(parent)
 
@@ -70,22 +70,22 @@ class MaxHeap:
         # get left, right and current index
         left = index * 2
         right = index * 2 + 1
-        largest = index
+        smallest = index
 
-        # check if any of the child is bugger than current index
-        if left < len(self.heap) and self.heap[largest] < self.heap[left]:
-            largest = left
-        if right < len(self.heap) and self.heap[largest] < self.heap[right]:
-            largest = right
+        # check if any of the child is smaller than current index
+        if left < len(self.heap) and self.heap[smallest] > self.heap[left]:
+            smallest = left
+        if right < len(self.heap) and self.heap[smallest] > self.heap[right]:
+            smallest = right
 
-        # if any child was bigger than index, then swap it with largest value and call bubbledown on it
-        if largest != index:
-            self.__swap(index,largest)
-            self.__bubbledown(largest)
+        # if any child was bigger than index, then swap it with smallest value and call bubbledown on it
+        if smallest != index:
+            self.__swap(index,smallest)
+            self.__bubbledown(smallest)
 
 
 
-m = MaxHeap([12,58,75])
+m = MinHeap([12,58,75])
 m.push(10)
 print(str(m.heap))
 #print(str(m.heap[0:len(m.heap)]))

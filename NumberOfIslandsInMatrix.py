@@ -41,14 +41,6 @@ def CountIslands(arr):
 
 
 
-
-
-
-
-
-
-
-
 arr = np.zeros([5,5])
 arr[0][0] = arr[0][1] = arr[1][0] = arr[1][1] = 1
 arr[0][3] = arr[0][4] = arr[1][3] = arr[1][4] = 1
