@@ -133,11 +133,35 @@ def dictionaryExercise3():
     print(dict)
 
 
+def SortingListOfDictionaries():
+
+    # Note that list of dictionaries in here has same key value throughout
+
+    persons =[{'name': 'Homer', 'age': 39}, {'name': 'Bart', 'age': 10}]
+    newlist = sorted(persons, key=lambda k: k['name'])
+    for i in range(len(newlist)):
+        for k,v in newlist[i].items():
+            print(str(k) + " : " + str(v), end="\n")
+
+    from operator import itemgetter
+    newlist = sorted(persons, key=itemgetter('name'))
+    for i in range(len(newlist)):
+        for k, v in newlist[i].items():
+            print(str(k) + " : " + str(v), end="\n")
+
+    newlist = sorted(persons, key=itemgetter('name'), reverse=True)
+    for i in range(len(newlist)):
+        for k, v in newlist[i].items():
+            print(str(k) + " : " + str(v), end="\n")
+
+
 def main():
     #dictionaryExercise()
     #Cat(sys.argv[1])
     #dictionaryExercise2()
-    dictionaryExercise3()
+    #dictionaryExercise3()
+    SortingListOfDictionaries()
+
 
 if __name__ == '__main__':
     main()
