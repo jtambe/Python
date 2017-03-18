@@ -35,8 +35,8 @@ import json
 #     def AddVertex(self, vertex):
 #         self.vertices.append(vertex)
 
-
 def getWeight(element):
+
     # print(element)
     # print(element[1])
     for k,v in element[1].items():
