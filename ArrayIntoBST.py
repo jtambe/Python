@@ -8,6 +8,14 @@
 # 4. Insert into right subtree, the right subarray
 # 5. recursively repeat until end of array < start of array
 
+
+'''
+This solution can also be applied for converting a BST into a balanced BST/ How to balance a Binary search tree
+1. Traverse a tree inorder fashion, store the payloads in array
+2. Convert that array into a balanced BST
+'''
+
+
 import sys
 #sys.path.append()
 import os
