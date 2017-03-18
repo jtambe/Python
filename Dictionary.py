@@ -155,12 +155,52 @@ def SortingListOfDictionaries():
             print(str(k) + " : " + str(v), end="\n")
 
 
+
+def getValueFromDictionary(dictElement):
+    for k, v in dictElement.items():
+        result = v
+    return result
+
+
+def SortingListOfDictionaries2():
+
+    x = [{'B': 16}, {'I': 6}, {'K': 20}]
+    print(x)
+    y = sorted(x, key=getValueFromDictionary)
+    print(y)
+
+
+def DeletefromDict():
+    dict = {}
+
+    dict['a'] = 23
+    dict['b'] = 12
+    dict['c'] = 34
+    dict['d'] = 22
+    dict['e'] = 13
+
+    for k,v in dict.items():
+        print(str(k) + " : " + str(v))
+    # del dict['c']
+    for k, v in dict.items():
+        print(str(k) + " : " + str(v))
+
+    if 'c' in dict:
+        print('yes')
+
+    dict['c'] = 12
+    for k, v in dict.items():
+        print(str(k) + " : " + str(v))
+
+
 def main():
-    #dictionaryExercise()
-    #Cat(sys.argv[1])
-    #dictionaryExercise2()
-    #dictionaryExercise3()
-    SortingListOfDictionaries()
+    # dictionaryExercise()
+    # Cat(sys.argv[1])
+    # dictionaryExercise2()
+    # dictionaryExercise3()
+    # SortingListOfDictionaries()
+    # SortingListOfDictionaries2()
+    DeletefromDict()
 
 
 if __name__ == '__main__':

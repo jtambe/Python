@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef2a2fa-a3ea-4539-b406-fed05b7166a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HighestPorductOfThree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrimsMinimumSpannignTree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ProductOfAllExceptIndex.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dictionary.py" afterPath="$PROJECT_DIR$/Dictionary.py" />
     </list>
     <ignored path="Python.iws" />
@@ -30,11 +26,23 @@
       <file leaf-file-name="PrimsMinimumSpannignTree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PrimsMinimumSpannignTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="350">
+              <caret line="140" column="14" selection-start-line="140" selection-start-column="14" selection-end-line="140" selection-end-column="14" />
               <folding>
-                <element signature="e#359#568#0" expanded="false" />
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#32#63#0" expanded="false" />
+                <element signature="e#3051#3068#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hello.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hello.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,8 +60,8 @@
       <file leaf-file-name="Dictionary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dictionary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="144" column="0" selection-start-line="141" selection-start-column="3" selection-end-line="144" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="97" column="42" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -181,24 +189,7 @@
     <property name="settings.editor.splitter.proportion" value="0.23874755" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.Dictionary">
-    <configuration default="false" name="MinHeapImplementation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MinHeapImplementation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.PrimsMinimumSpannignTree">
     <configuration default="false" name="PrimsMinimumSpannignTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,6 +254,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dictionary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -402,19 +410,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.MinHeapImplementation" />
-      <item index="1" class="java.lang.String" itemvalue="Python.PrimsMinimumSpannignTree" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ProductOfAllExceptIndex" />
-      <item index="3" class="java.lang.String" itemvalue="Python.HighestPorductOfThree" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Dictionary" />
+      <item index="0" class="java.lang.String" itemvalue="Python.PrimsMinimumSpannignTree" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ProductOfAllExceptIndex" />
+      <item index="2" class="java.lang.String" itemvalue="Python.HighestPorductOfThree" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Dictionary" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Hello" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Dictionary" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PrimsMinimumSpannignTree" />
-        <item index="2" class="java.lang.String" itemvalue="Python.HighestPorductOfThree" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ProductOfAllExceptIndex" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MinHeapImplementation" />
+        <item index="0" class="java.lang.String" itemvalue="Python.PrimsMinimumSpannignTree" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Hello" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Dictionary" />
+        <item index="3" class="java.lang.String" itemvalue="Python.HighestPorductOfThree" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ProductOfAllExceptIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +451,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35015774" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35015774" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -566,13 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -812,14 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="144" column="0" selection-start-line="141" selection-start-column="3" selection-end-line="144" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sortingObjects.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -828,12 +821,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="97" column="42" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PrimsMinimumSpannignTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="350">
+          <caret line="140" column="14" selection-start-line="140" selection-start-column="14" selection-end-line="140" selection-end-column="14" />
           <folding>
-            <element signature="e#359#568#0" expanded="false" />
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#32#63#0" expanded="false" />
+            <element signature="e#3051#3068#0" expanded="false" />
           </folding>
         </state>
       </provider>
