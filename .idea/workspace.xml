@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef2a2fa-a3ea-4539-b406-fed05b7166a2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Trie.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DijkstrasSingleSourceShortestPath.py" afterPath="$PROJECT_DIR$/DijkstrasSingleSourceShortestPath.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrimsMinimumSpannignTree.py" afterPath="$PROJECT_DIR$/PrimsMinimumSpannignTree.py" />
     </list>
     <ignored path="Python.iws" />
@@ -23,27 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PrimsMinimumSpannignTree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PrimsMinimumSpannignTree.py">
+      <file leaf-file-name="DijkstrasSingleSourceShortestPath.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DijkstrasSingleSourceShortestPath.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="144" column="4" selection-start-line="144" selection-start-column="4" selection-end-line="144" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#32#63#0" expanded="false" />
-                <element signature="e#1537#1557#0" expanded="false" />
-                <element signature="e#2005#2034#0" expanded="false" />
-                <element signature="e#3051#3068#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="183">
+              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DijkstrasSingleSourceShortestPath.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DijkstrasSingleSourceShortestPath.py">
+      <file leaf-file-name="Trie.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Trie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+            <state relative-caret-position="350">
+              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -72,8 +69,8 @@
       <file leaf-file-name="Dictionary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dictionary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="97" column="42" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="42" />
+            <state relative-caret-position="272">
+              <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -87,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/uniqueString.py" />
         <option value="$PROJECT_DIR$/ArrayOfPairs.py" />
         <option value="$PROJECT_DIR$/IsStringShuffle.py" />
         <option value="$PROJECT_DIR$/BreadthFirstSearch.py" />
@@ -136,8 +132,9 @@
         <option value="$PROJECT_DIR$/ProductOfAllExceptIndex.py" />
         <option value="$PROJECT_DIR$/HighestPorductOfThree.py" />
         <option value="$PROJECT_DIR$/Dictionary.py" />
-        <option value="$PROJECT_DIR$/DijkstrasSingleSourceShortestPath.py" />
         <option value="$PROJECT_DIR$/PrimsMinimumSpannignTree.py" />
+        <option value="$PROJECT_DIR$/DijkstrasSingleSourceShortestPath.py" />
+        <option value="$PROJECT_DIR$/Trie.py" />
       </list>
     </option>
   </component>
@@ -201,7 +198,7 @@
     <property name="settings.editor.splitter.proportion" value="0.23874755" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.DijkstrasSingleSourceShortestPath">
+  <component name="RunManager" selected="Python.Trie">
     <configuration default="false" name="PrimsMinimumSpannignTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,23 +212,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrimsMinimumSpannignTree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="HighestPorductOfThree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HighestPorductOfThree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -283,6 +263,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DijkstrasSingleSourceShortestPath.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Trie" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -423,18 +420,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.PrimsMinimumSpannignTree" />
-      <item index="1" class="java.lang.String" itemvalue="Python.HighestPorductOfThree" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Dictionary" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Hello" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DijkstrasSingleSourceShortestPath" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Dictionary" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Hello" />
+      <item index="3" class="java.lang.String" itemvalue="Python.DijkstrasSingleSourceShortestPath" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Trie" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DijkstrasSingleSourceShortestPath" />
-        <item index="1" class="java.lang.String" itemvalue="Python.PrimsMinimumSpannignTree" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Hello" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Dictionary" />
-        <item index="4" class="java.lang.String" itemvalue="Python.HighestPorductOfThree" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Trie" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DijkstrasSingleSourceShortestPath" />
+        <item index="2" class="java.lang.String" itemvalue="Python.PrimsMinimumSpannignTree" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Hello" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Dictionary" />
       </list>
     </recent_temporary>
   </component>
@@ -509,13 +506,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NumberOfPathsInMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="112" column="54" selection-start-line="112" selection-start-column="54" selection-end-line="112" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/StringlyConnectedComponents.py" />
     <entry file="file://$PROJECT_DIR$/LongestKuniqueCharacteSubstring.py" />
@@ -822,14 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" column="42" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hello.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2533">
@@ -838,18 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DijkstrasSingleSourceShortestPath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PrimsMinimumSpannignTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="144" column="4" selection-start-line="144" selection-start-column="4" selection-end-line="144" selection-end-column="4" />
+        <state relative-caret-position="317">
+          <caret line="145" column="53" selection-start-line="145" selection-start-column="53" selection-end-line="145" selection-end-column="53" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#32#63#0" expanded="false" />
@@ -857,6 +831,30 @@
             <element signature="e#2005#2034#0" expanded="false" />
             <element signature="e#3051#3068#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstrasSingleSourceShortestPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

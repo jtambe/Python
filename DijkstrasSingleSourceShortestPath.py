@@ -5,7 +5,7 @@ def getWeight(element):
             result = k
     return result
 
-def PrimsTree(graph,start):
+def DijkstrasPathWeights(graph,start):
 
     auxDict = {}
     ShortestPathWeights = {}
@@ -23,7 +23,6 @@ def PrimsTree(graph,start):
 
         # sort the auxiliary dictionary to get minimum weight vertex edge next
         sortedAux = collections.OrderedDict(sorted(auxDict.items(), key=getWeight)) # sends each item to getWeight as tuple
-
         for k,v in sortedAux.items():
             key = k
             parentNode = ''
@@ -72,8 +71,8 @@ def main():
                 'K': [('A', 20), ('J', 16)]
              }
 
-    EdgesInMinimumSpanningtree = PrimsTree(graph,'D')
-    print(EdgesInMinimumSpanningtree)
+    DijkstrasPathWeightsList = DijkstrasPathWeights(graph,'D')
+    print(DijkstrasPathWeightsList)
 
 
 if __name__ == "__main__":
