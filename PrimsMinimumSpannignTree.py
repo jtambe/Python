@@ -142,7 +142,7 @@ def main():
 
     # for key,value in graph.items():
     #     print(str(key) + " : " + str(value), end='\n')
-    
+
     EdgesInMinimumSpanningtree = PrimsTree(graph,'D')
     print(EdgesInMinimumSpanningtree)
 
