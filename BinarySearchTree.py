@@ -133,6 +133,105 @@ class Tree:
         else:
             return -1
 
+    def remove(self,data):
+
+        # empty tree
+        if self.root is None:
+            return False
+
+        # deleting root node
+        elif self.root.value == data:
+            if self.root.leftChild is None and self.root.rightChild is None:
+                self.root = None
+            elif self.root.leftChild and self.root.rightChild is None:
+                self.root = self.root.leftChild
+            elif self.root.leftChild is None and self.root.rightChild:
+                self.root = self.root.leftChild
+            elif self.root.leftChild and self.root.rightChild:
+
+                delNodeParent = self.root
+                delNode = self.root.rightChild
+                while delNode.leftChild:
+                    delNodeParent = delNode
+                    delNode = delNode.leftChild
+
+                self.root.value = delNode.value
+                if delNode.rightChild:
+                    if delNodeParent.value > delNode.value:
+                        delNodeParent.leftChild = delNode.rightChild
+                    elif delNodeParent.value < delNode.value:
+                        delNodeParent.rightChild = delNode.RightChild
+                else:
+                    if delNodeParent.value > delNode.value:
+                        delNodeParent.leftChild = None
+                    else:
+                        delNodeParent.rightChild = None
+            return True
+
+
+        parent = None
+        node = self.root
+
+        # look for data to be removed
+        while node and node.value != data:
+            parent = node
+            if data < node.value:
+                node = node.leftChild
+            elif data > node.value:
+                node = node.rightChild
+
+        # data not found
+        if node is None or node.value != data:
+            return False
+
+        # remove node with no children
+        elif node.leftChild is None and node.rigthChild is None:
+            if data < parent.value:
+                parent.leftChild = None
+            if data > parent.value:
+                parent.rightChild = None
+            return True
+
+        # remove node with only left child
+        elif node.leftChild and node.rigthChild is None:
+            if data < parent.value:
+                parent.leftChild = node.leftChild
+            if data > parent.value:
+                parent.rightChild = node.leftChild
+            return True
+
+        # remove node with only right child
+        elif node.leftChild is None and node.rigthChild:
+            if data < parent.value:
+                parent.leftChild = node.rigthChild
+            if data > parent.value:
+                parent.rightChild = node.rigthChild
+            return True
+
+        # remove node has both children
+        else:
+            delNodeParent = None
+            delNode = node.rightChild
+            while delNode.leftChild:
+                delNodeParent = delNode
+                delNode = delNode.leftChild
+
+            node.value = delNode.value
+            if delNode.rightChild:
+                if delNodeParent.value > delNode.value:
+                    delNodeParent.leftChild = delNode.rightChild
+                elif delNodeParent.value < delNode.value:
+                    delNodeParent.rightChild = delNode.RightChild
+            else:
+                if delNodeParent.value > delNode.value:
+                    delNodeParent.leftChild = None
+                else:
+                    delNodeParent.rightChild = None
+        return True
+
+
+
+
 
 bst = Tree()
 bst.insert(15)
