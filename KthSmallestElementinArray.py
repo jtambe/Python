@@ -19,7 +19,7 @@ def Partition(arr, x): # O(n)
     # after placing pivot element at the first position, keep sliding it till the position where
     # all elements to the left of it are smaller
     border = 0
-    for i in range(len(arr)):
+    for i in range(1, len(arr)):
         if arr[i] < x:
             border += 1
             arr[border], arr[i] = arr[i], arr[border]
