@@ -1,9 +1,14 @@
 '''
 
 Given a list of numbers [2,1,1,2]
-and set of operators '+' ,'*'
-(2+1) * (1+2)
+and set of operators '+' ,'*', '(' , ')'
+
 find max output that can be generated
+In equation, order of the number appears same as in list
+
+(2+1) * (1+2) = 9
+(2+1) + (1+2) = 6
+
 
 '''
 
