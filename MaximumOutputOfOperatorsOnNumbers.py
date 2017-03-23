@@ -32,7 +32,7 @@ def CreateMaxSubtree(arr):
         CreateMaxSubtree(arr[1:])
 
 
-def GetMaxOutput(nums, operators):
+def GetMaxOutput(nums):
 
 
     maxresult = float("-infinity")
@@ -63,4 +63,4 @@ def GetMaxOutput(nums, operators):
 nums = [2,1,1,2]
 operatorsList = ['+','*']
 
-print(GetMaxOutput(nums, operatorsList))
+print(GetMaxOutput(nums))
