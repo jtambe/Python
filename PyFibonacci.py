@@ -27,8 +27,9 @@ def fibonacciShort(n):
     a, b = 0, 1
     for i in range(n):
         # print horizontally
-        print(a, end = " ")
+        # print(a, end = " ")
         a, b = b, a+b
+    return b
 
 # Generator style
 def fibonacciGenrator(n):
@@ -45,10 +46,10 @@ def main():
 
     #print(fiboRecursive(9))
 
-    fibonacciShort(10)
+    print(fibonacciShort(8181))
 
-    for eachYieldResult in fibonacciGenrator(10):
-        print(eachYieldResult, end=" ")
+    # for eachYieldResult in fibonacciGenrator(10):
+    #     print(eachYieldResult, end=" ")
 
 
 if __name__ == '__main__':
