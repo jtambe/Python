@@ -1,0 +1,7 @@
+<td><a href="index.php?em=EXLSERVICECOM+LLC&amp;job=SOFTWARE&amp;city=CHICO&amp;year=ALL+YEARS">EXLSERVICECOM LLC</a></td>
+<td><a href="index.php?em=FYNBOSYS+INC&amp;job=SOFTWARE&amp;city=CHICO&amp;year=ALL+YEARS">FYNBOSYS INC</a></td>
+<td><a href="index.php?em=11+MAIN+INC&amp;job=SOFTWARE&amp;city=CHICO&amp;year=ALL+YEARS">11 MAIN INC</a></td>
+<td><a href="index.php?em=SUNGARD+PUBLIC+SECTOR+INC&amp;job=SOFTWARE&amp;city=CHICO&amp;year=ALL+YEARS">SUNGARD PUBLIC SECTOR INC</a></td>
+<td><a href="index.php?em=11MAINCOM+INC&amp;job=SOFTWARE&amp;city=CHICO&amp;year=ALL+YEARS">11MAINCOM INC</a></td>
+<td><a href="index.php?em=AUCTIVA+CORPORATION&amp;job=SOFTWARE&amp;city=CHICO&amp;year=ALL+YEARS">AUCTIVA CORPORATION</a></td>
+<td><a href="index.php?em=EXLSERVICECOM+INC&amp;job=SOFTWARE&amp;city=CHICO&amp;year=ALL+YEARS">EXLSERVICECOM INC</a></td>
