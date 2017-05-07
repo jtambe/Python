@@ -3,7 +3,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 
 # url = "http://h1bdata.info/index.php?em=&job=software&city=san+jose&year=All+Years"
-url = "http://h1bdata.info/index.php?em=&job=software&city=chico&year=All+Years"
+url = "http://h1bdata.info/index.php?em=&job=software&city=san+ramon&year=All+Years"
 
 companies = set()
 
@@ -16,12 +16,14 @@ for tr in soup.find_all('tr'):
     for td in tds:
         if td not in companies:
             companies.add(tds[0])
-print(companies)
+# print(companies)
 
 file = open("companies.txt", "w")
+i = 0
 for cp in companies:
-    # print(cp)
-    file.write(str(cp) + '\n')
+    print(str(i) + ":" + str(cp))
+    file.write(str(i) + ":" + str(cp) + '\n')
+    i += 1
 
 
 
