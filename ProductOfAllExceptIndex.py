@@ -36,6 +36,7 @@ def GetProductsOfAllExceptAtIndex(arr):
 
 
 arr = [15,25,7,5,3,26,0,14,12]
+arr = [1,2,3,4,5]
 # arr = [1,2,3,4,5,6,7,9]
 
 ans = GetProductsOfAllExceptAtIndex(arr)
