@@ -80,6 +80,22 @@ class Node:
             if self.rightChild:
                 self.rightChild.inorder()
 
+    def inorderNoRecusrion(self):
+        mystack = []
+        if self:
+            while(True):
+                if self:
+                    mystack.append(self)
+                    self = self.leftChild
+                else:
+                    if len(mystack) == 0:
+                        break
+                    item = mystack.pop()
+                    print(str(item.value))
+                    self = item.rightChild
+
+
+
     def getHeight(self,child):
         if child is None:
             return -1
@@ -117,6 +133,10 @@ class Tree:
     def inorder(self):
         print('inorder')
         self.root.inorder()
+
+    def inorderNoRecusrionCall(self):
+        print('inorder Non recursive')
+        self.root.inorderNoRecusrion()
 
     def findParent(self,data):
         if self.root:
@@ -255,3 +275,4 @@ bst.insert(67)
 
 #bst.preorder()
 #bst.postorder()
+bst.inorderNoRecusrionCall()
